@@ -22,8 +22,7 @@ import {
 } from 'react-native';
 import DocumentPicker from 'react-native-document-picker';
 import { Icon } from '@rneui/themed';
-import RNFS from 'react-native-fs';
-
+import RNFS from '../../__mocks__/@dr.pogodin/react-native-fs-mock.ts';
 import { btcToSatoshi, fiatToBTC } from '../../blue_modules/currency';
 import * as fs from '../../blue_modules/fs';
 import triggerHapticFeedback, { HapticFeedbackTypes } from '../../blue_modules/hapticFeedback';

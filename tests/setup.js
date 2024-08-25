@@ -80,7 +80,7 @@ jest.mock('react-native-default-preference', () => {
 
 jest.mock('@lodev09/react-native-true-sheet');
 
-jest.mock('react-native-fs', () => {
+jest.mock('@dr.pogodin/react-native-fs', () => {
   return {
     mkdir: jest.fn(),
     moveFile: jest.fn(),

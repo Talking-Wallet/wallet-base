@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CommonActions } from '@react-navigation/native';
 import { useEffect } from 'react';
 import { DeviceEventEmitter, Linking, Platform } from 'react-native';
-import QuickActions from 'react-native-quick-actions';
+import * as QuickActions from "expo-quick-actions";
 import DeeplinkSchemaMatch from '../class/deeplink-schema-match';
 import { TWallet } from '../class/wallets/types';
 import useOnAppLaunch from '../hooks/useOnAppLaunch';

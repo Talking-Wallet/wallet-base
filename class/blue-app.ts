@@ -1,10 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import createHash from 'create-hash';
 import DefaultPreference from 'react-native-default-preference';
-import RNFS from 'react-native-fs';
+import RNFS from '../__mocks__/@dr.pogodin/react-native-fs-mock';
 import Keychain from 'react-native-keychain';
 import RNSecureKeyStore, { ACCESSIBLE } from 'react-native-secure-key-store';
-import Realm from 'realm';
+import Realm from '../__mocks__/realm-mock';
 
 import * as encryption from '../blue_modules/encryption';
 import presentAlert from '../components/Alert';

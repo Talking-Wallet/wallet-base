@@ -1,7 +1,7 @@
 import LocalQRCode from '@remobile/react-native-qrcode-local-image';
 import { Alert, Linking, PermissionsAndroid, Platform } from 'react-native';
 import DocumentPicker from 'react-native-document-picker';
-import RNFS from 'react-native-fs';
+import RNFS from '../__mocks__/@dr.pogodin/react-native-fs-mock.ts';
 import { launchImageLibrary } from 'react-native-image-picker';
 import Share from 'react-native-share';
 

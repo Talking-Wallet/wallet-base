@@ -3,8 +3,8 @@ import BigNumber from 'bignumber.js';
 import * as bitcoin from 'bitcoinjs-lib';
 import { Alert } from 'react-native';
 import DefaultPreference from 'react-native-default-preference';
-import RNFS from 'react-native-fs';
-import Realm from 'realm';
+import RNFS from '../__mocks__/@dr.pogodin/react-native-fs-mock.ts';
+import Realm from '../__mocks__/realm-mock';
 
 import { LegacyWallet, SegwitBech32Wallet, SegwitP2SHWallet, TaprootWallet } from '../class';
 import presentAlert from '../components/Alert';

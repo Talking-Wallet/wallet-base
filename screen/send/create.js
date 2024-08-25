@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import React, { useCallback, useEffect } from 'react';
 import { Alert, FlatList, Linking, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { Icon } from '@rneui/themed';
-import RNFS from 'react-native-fs';
+import RNFS from '@dr.pogodin/react-native-fs';
 import { PERMISSIONS, request, RESULTS } from 'react-native-permissions';
 import Share from 'react-native-share';
 
